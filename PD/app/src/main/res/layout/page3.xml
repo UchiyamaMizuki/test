@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="mizuki.uchiyama.kit.pd.page3">
+
+<Button
+    android:id="@+id/page3_menu"
+    android:layout_width="280dp"
+    android:layout_height="130dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/maru"
+    android:text="modoru"
+    android:textColor="#000000"
+    android:textSize="30sp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="野々市市郷土資料館"
+    android:textColor="#000000"
+    android:textSize="35pt" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="559dp"
+    android:layout_marginStart="559dp"
+    android:layout_marginTop="97dp"
+    android:src="@drawable/siryoukan" />
+
+<TextView
+    android:layout_width="550dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignTop="@+id/imageView"
+    android:text="1982年に旧魚住家住宅を利用して開館し、1994年には現在の場所に移築し、同示に展示棟も増築して今の郷土資料館になった。市指定文化財の「旧魚住家住宅」と展示棟において、民具、農具を中心に展示している。
+        \n住所:  石川県野々市市本町3丁目19−24 "
+    android:textColor="#000000"
+    android:textSize="20pt" />
+
+
+</RelativeLayout>

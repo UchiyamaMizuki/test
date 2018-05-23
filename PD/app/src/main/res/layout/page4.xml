@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.page4">
+
+    <Button
+        android:id="@+id/page4_menu"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:text="modoru"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="野々市市ふるさと歴史館"
+        android:textColor="#000000"
+        android:textSize="35pt"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="野々市市の町中にある観光スポットで、野々市市の各地から発見された歴史の貴重な品を展示している。野々市市ふるさと歴史館の中には御経塚遺跡で発掘されたという縄文時代の貴重な品々や末松廃寺跡から見つかったものも多く展示されている。
+        \n住所: 石川県野々市市御経塚１丁目１８２"
+        android:textColor="#000000"
+        android:textSize="20pt" />
+
+
+</RelativeLayout>

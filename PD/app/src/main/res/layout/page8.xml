@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.page8">
+
+    <Button
+        android:id="@+id/page8_menu"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:text="modoru"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="末松廃寺跡"
+        android:textColor="#000000"
+        android:textSize="35pt" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="559dp"
+        android:layout_marginStart="559dp"
+        android:layout_marginTop="97dp"
+        android:src="@drawable/uramatu" />
+
+    <TextView
+        android:layout_width="550dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:text="石川県野々市市の一帯に広がっている加賀松平野の真ん中に位置しているスポットでかつて末松廃寺という野々市市の有名な寺がある。現在は、野々市市の市民が集まったりの憩いの公園となっている。野々市市の史跡公園としても指定されているので、周りの遊歩道や道路も整備されていて、アクセスしやすい。
+住所:石川県野々市市 末松2丁目地内 "
+        android:textColor="#000000"
+        android:textSize="20pt" />
+
+
+</RelativeLayout>

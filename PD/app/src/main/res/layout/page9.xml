@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.page9">
+
+    <Button
+        android:id="@+id/page9_menu"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:text="modoru"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="喜多家住宅"
+        android:textColor="#000000"
+        android:textSize="35pt" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="559dp"
+        android:layout_marginStart="559dp"
+        android:layout_marginTop="97dp"
+        android:src="@drawable/zyuutaku" />
+
+    <TextView
+        android:layout_width="550dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:text="野々市で非常に有名だった喜多家という人々の住宅の住宅を保存している。喜多家は、野々市で油屋をしていた一家で、元禄時代ころから権力を持ち始めた。１５０年あまりに渡って、大きな権力を振るっていた喜多家住宅は総瓦茸きの２階建てとなっていて、重要文化財として指定されている。\n住所:石川県野々市市本町３丁目８−１１ "
+        android:textColor="#000000"
+        android:textSize="20pt" />
+
+
+</RelativeLayout>

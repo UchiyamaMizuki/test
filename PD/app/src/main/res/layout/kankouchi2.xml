@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.kankouchi2">
+
+    <Button
+        android:id="@+id/page7"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inuwashi"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="白山いぬわし\n自然楽校"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/inuwashi"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/inuwashi" />
+
+    <Button
+        android:id="@+id/page8"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignEnd="@+id/suematu"
+        android:layout_alignRight="@+id/suematu"
+        android:layout_below="@+id/suematu"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="末松廃寺跡"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/suematu"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@+id/inuwashi"
+        android:layout_marginLeft="128dp"
+        android:layout_marginStart="128dp"
+        android:layout_toEndOf="@+id/inuwashi"
+        android:layout_toRightOf="@+id/inuwashi"
+        android:src="@drawable/uramatu" />
+
+    <Button
+        android:id="@+id/page9"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignEnd="@+id/zyuutaku"
+        android:layout_alignRight="@+id/zyuutaku"
+        android:layout_below="@+id/zyuutaku"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="喜多家住宅"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/zyuutaku"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/suematu"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:src="@drawable/zyuutaku" />
+
+    <Button
+        android:id="@+id/page10"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/page7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/page7"
+        android:layout_marginBottom="98dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="布布神社"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/nunonuno"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_above="@+id/kankouchi2_modoru"
+        android:layout_alignEnd="@+id/page7"
+        android:layout_alignRight="@+id/page7"
+        android:layout_marginBottom="57dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:src="@drawable/notti2" />
+
+    <Button
+        android:id="@+id/kankouchi2_modoru"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/maru"
+        android:text="modoru"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/tugi2"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="tugi"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="mizuki.uchiyama.kit.pd.page2">
+
+<Button
+    android:id="@+id/page2_menu"
+    android:layout_width="280dp"
+    android:layout_height="130dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/maru"
+    android:text="modoru"
+    android:textColor="#000000"
+    android:textSize="30sp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="御経塚遺跡"
+    android:textColor="#000000"
+    android:textSize="35pt" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="559dp"
+    android:layout_marginStart="559dp"
+    android:layout_marginTop="97dp"
+    android:src="@drawable/iseki" />
+
+<TextView
+    android:layout_width="550dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignTop="@+id/imageView"
+    android:text="竪穴式住居が復元されている、公園として整備されており年間大勢の人が訪れています。旧北国街道沿いは、郷土資料館や国指定重要文化財の喜多家があり、歴史の重みを感じさせる街並みが人気です。春には「椿まつり」、夏には「野々市じょんからまつり」が開催されます。
+        住所:石川県野々市市御経塚１丁目 "
+    android:textColor="#000000"
+    android:textSize="20pt" />
+
+
+</RelativeLayout>

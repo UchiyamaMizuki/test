@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/menu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.MainActivity">
+
+    <Button
+        android:id="@+id/gamebutton"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:background="@drawable/maru"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:text="gamestart"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp" />
+
+    <Button
+        android:id="@+id/kankouchi"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="kankouti\nzukan"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/gamebutton"
+        android:layout_toStartOf="@+id/gamebutton" />
+
+
+</RelativeLayout>

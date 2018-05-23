@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/menu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.Game_fin">
+
+    <Button
+        android:id="@+id/gamestart"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:background="@drawable/maru"
+        android:text="game start"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginRight="237dp"
+        android:layout_marginEnd="237dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="menu"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/gamestart"
+        android:layout_toLeftOf="@+id/gamestart"
+        android:layout_toStartOf="@+id/gamestart"
+        android:layout_marginRight="237dp"
+        android:layout_marginEnd="237dp" />
+
+
+</RelativeLayout>

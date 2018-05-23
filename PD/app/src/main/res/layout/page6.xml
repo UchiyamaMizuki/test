@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.page6">
+
+    <Button
+        android:id="@+id/page6_menu"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:text="modoru"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="野々市市じょんからまつり"
+        android:textColor="#000000"
+        android:textSize="35pt" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="559dp"
+        android:layout_marginStart="559dp"
+        android:layout_marginTop="97dp"
+        android:src="@drawable/zyonkara" />
+
+    <TextView
+        android:layout_width="550dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:text="毎年7月下旬に文化会館フォルテ付近で行われる野々市市を代表するまつりで、まちの人たちが大きな一つの輪になり、暑さも忘れて踊りを楽しむ。飲食テナントや餅つき、特設ステージでのパフォーマンス等、一日中多彩なプログラムが繰り広げられ、夜の野々市じょんから踊りでまつりは最高潮に達する。"
+        android:textColor="#000000"
+        android:textSize="20pt" />
+
+
+</RelativeLayout>

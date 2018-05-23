@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mizuki.uchiyama.kit.pd.kankouchi">
+
+    <ImageButton
+        android:id="@+id/kit1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/kankouchi_menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/kankouchi_menu"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/kit" />
+
+    <Button
+        android:id="@+id/page1"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/kit1"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="金沢工業大学"
+        android:textColor="#000000"
+    android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/iseki"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/kit1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/iseki" />
+
+    <Button
+        android:id="@+id/page2"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/page1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="御経塚遺跡"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/siryoukan"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iseki"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:src="@drawable/siryoukan" />
+
+    <Button
+        android:id="@+id/page3"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/siryoukan"
+        android:layout_alignStart="@+id/siryoukan"
+        android:layout_below="@+id/siryoukan"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="野々市市資料館"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <ImageButton
+        android:id="@+id/rekisikan"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/kankouchi_menu"
+        android:layout_alignRight="@+id/kankouchi_menu"
+        android:layout_below="@+id/page1"
+        android:src="@drawable/notti2" />
+
+    <Button
+        android:id="@+id/page4"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/page1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/page1"
+        android:layout_marginBottom="96dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="野々市市ふるさと\n歴史館"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/tyankare"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/page2"
+        android:layout_alignRight="@+id/page2"
+        android:layout_below="@+id/page2"
+        android:src="@drawable/tyankare" />
+
+    <Button
+        android:id="@+id/page5"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/tyankare"
+        android:layout_alignStart="@+id/tyankare"
+        android:layout_below="@+id/tyankare"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="カレーの\nチャンピオン本店"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/zyonkara"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/page3"
+        android:layout_alignStart="@+id/page3"
+        android:layout_alignTop="@+id/tyankare"
+        android:src="@drawable/zyonkara" />
+
+
+    <Button
+        android:id="@+id/page6"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/zyonkara"
+        android:layout_alignStart="@+id/zyonkara"
+        android:layout_below="@+id/zyonkara"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="野々市市じょんからまつり"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/kankouchi_menu"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/maru"
+        android:text="menu"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/tugi"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maru"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="tugi"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
